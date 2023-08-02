@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bg.webp);
+    color: white;
+}
+
+.container{
+    width: 30%;
+    min-height: 300px;
+    backdrop-filter: blur(4px);
+    margin: 130px auto;
+    border-radius: 10px;
+   text-align: center;
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+.text ul{
+    position: relative;
+    background-color: rgb(63, 65, 65);
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    text-align: left;
+    
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    padding: 5px;
+ }
